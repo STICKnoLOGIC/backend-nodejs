@@ -8,7 +8,7 @@ on:
         required: true
 
 env:
-  VERSION: 18.12.0
+  VERSION: 16.16.0
 
 jobs:
   build_android_arm64:
