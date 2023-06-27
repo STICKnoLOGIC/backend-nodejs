@@ -91,6 +91,7 @@ if [ -f "configure" ]; then
         --without-snapshot \
         --without-ssl \
         --with-intl=none \
+        --fully-static \
         --enable-static \
         --cross-compiling
   else 
@@ -100,6 +101,7 @@ if [ -f "configure" ]; then
         --without-snapshot \
         --openssl-no-asm \
         --with-intl=none \
+        --fully-static \
         --enable-static \
         --cross-compiling
   fi
