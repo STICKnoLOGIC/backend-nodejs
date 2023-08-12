@@ -45,6 +45,7 @@ echo "=====[Building Node.js]====="
 cp $WORKSPACE/android-configure-static ./
 ./android-configure-static ~/android-ndk-r21b $2 24 $WITH_SSL
 make -j8
+make -j8 install
 
 mkdir -p ../puerts-node/nodejs/lib/Android/$OUTPUT/
 
